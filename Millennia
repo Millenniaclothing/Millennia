@@ -1,0 +1,20 @@
+# Gym Wear Size Recommendation Script
+# Created for fitness and gym wear brands
+
+print("Welcome to Gym Wear Size Recommender")
+
+height = float(input("Enter your height in cm: "))
+weight = float(input("Enter your weight in kg: "))
+
+if weight < 60:
+    size = "Small (S)"
+elif weight < 75:
+    size = "Medium (M)"
+elif weight < 90:
+    size = "Large (L)"
+else:
+    size = "Extra Large (XL)"
+
+print("\nRecommended Gym Wear Size:", size)
+print("Perfect for workouts, training, and active lifestyle.")
+print("Visit our gym wear store for premium quality fitness clothing.")
